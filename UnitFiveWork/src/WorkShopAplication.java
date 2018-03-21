@@ -6,10 +6,6 @@ public class WorkShopAplication {
 	
 	private Invoice invoice1 = new Invoice();
 	
-	// invoice line information
-	private int numInvoiceLine;
-	private int numArticles;
-	private int codArt;
-	private int quantity;
+	private WorkShopAplicationData data = new WorkShopAplicationData();
 
 }
