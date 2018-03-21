@@ -1,5 +1,3 @@
-import java.util.Date;
-
 public class WorkShopAplication {
 
 	// Product information
@@ -11,17 +9,8 @@ public class WorkShopAplication {
 
 	// Client information
 
-	private int codCli;
-	private String cliDni;
-	private String cliName;
-	private String cliFirstName;
-
-	// Invoice Information
-	private int codInvoice;
-	private Date date;
-	private double sum;
-	private int discount;
-
+	private Client client = new Client();
+	private Invoice invoice1 = new Invoice();
 	// invoice line information
 	private int numInvoiceLine;
 	private int numArticles;
