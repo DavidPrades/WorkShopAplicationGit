@@ -4,10 +4,8 @@ public class WorkShopAplication {
 
 	// Product information
 
-	private int codProd;
-	private String prodDescription;
-	private double codPrice;
-	private int prodStock;
+	private Product product1 = new Product();
+	
 
 	// Client information
 
