@@ -6,6 +6,6 @@ public class WorkShopAplication {
 	
 	private Invoice invoice1 = new Invoice();
 	
-	private WorkShopAplicationData data = new WorkShopAplicationData();
+	private InvoiceLine data = new InvoiceLine();
 
 }
